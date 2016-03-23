@@ -1,0 +1,272 @@
+@media screen and (min-width: 981px) {
+	
+	/**************************
+	HEADER
+	***************************/
+
+	header {
+		width:100%;
+		background-color: transparent;
+		margin:0;
+		padding:0;
+	}
+
+
+	h1 {
+	  font-family: 'Josefin Sans', sans-serif;
+	  font-size: 50px;
+	  font-weight: normal; 
+	  color: black;
+	  float: left;
+	  margin: 20px 15px 0 15px;
+	}
+
+	.header {
+		display:flex;
+		flex-direction:row;
+	}
+
+	form {
+		margin-top:33px;
+		margin-bottom:0;
+		margin-left:22px;
+	}
+
+	input {
+		height:25px;
+		width:200px;
+		vertical-align: middle;
+	}
+
+	#joinButton {
+		font-style: 'Fira Sans', sans-serif;
+		font-size: 60%;
+		vertical-align: middle;
+		padding: 7px 22px;
+	}
+
+	/**************************
+	NAVIGATION	
+	***************************/
+
+	nav ul {
+		list-style:none;
+		margin:0;
+		padding:0;
+		text-align:left;
+		font-family: 'BenchNine', sans-serif;
+		font-size:23px;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 35px 0 15px 0;
+		padding: 0 10px;
+	}
+
+	nav a {
+		text-decoration: none;
+		color: black;
+	}
+
+	#aw {
+		zoom: 3; 
+
+	    display: block;
+	    margin: 0;
+
+	    height: auto;
+	    max-height: 100%;
+
+	    width: auto;
+	    max-width: 100%;
+	}
+
+	.conmain {
+		margin:0;
+		padding:0;
+	}
+	
+
+	
+	/**************************
+	API
+	***************************/
+	
+	ul {
+		list-style:none;
+	}
+
+	.spotify {
+	margin:10px 0 0 10px;
+	padding-top:0;
+	display:block;
+	}
+	
+	.API {
+		display:none;
+	}
+	
+	.API p {
+		margin-left:10px;
+		font-family: 'Fira Sans', sans-serif;
+		font-size: 12px;
+	}
+	
+	#photos ul {
+		margin-left:0;
+		padding-left:0;
+	}
+	
+	.view {
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+	}
+	
+	
+
+	.spotify p {
+	margin: 0 0 10px 10px;
+	padding: 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	}
+
+	.buttonAPI,
+	#toptracks,
+	select {
+		background-color:#dfeae5;
+		width:50px;
+		height:35px;
+		border:none;
+		margin-left:10px;
+		letter-spacing:.8px;
+	}
+
+
+	/**************************
+	BIO PAGE
+	***************************/
+
+	
+	#biocon {
+		overflow:hidden;
+		padding:0;
+		display: block;
+		background-color:#dfeae5;
+	}
+
+	.biopic {
+		padding:0;
+		margin:0;
+	
+	}
+	
+	.biopic img {
+		max-width:50%;
+		height:auto;
+		margin: 0 15px 0 0;
+		float:left;
+	}
+
+	.biotext p {
+		line-height: 16px;
+		font-family: 'Fira Sans', sans-serif;
+		margin: 15px;
+		font-size:13px;
+	}
+
+	
+
+
+	/**************************
+	FOOTER	
+	***************************/
+
+
+	footer {
+		background-color:white;
+		font-size:20px;
+	}
+
+	.flexfooter {
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+	}
+
+	.one {
+		display:flex;
+		flex-direction:column;
+
+	}
+
+	.album {
+		display:flex;
+		flex-direction:column;
+		justify-content: flex-start;
+		align-items:center;
+		padding:0 10% 0 0;
+	}
+
+	.album p {
+		display:flex;
+		justify-content:space-around;
+		margin-bottom:20px;
+		margin-top:0;
+	}
+
+
+
+	
+	.flexfooter img {
+		padding:0;
+	}
+
+
+	#social {
+		display:flex;
+		flex-flow:row;
+		justify-content:flex-start;
+		padding-top:15px;
+		padding-left:20px;
+		padding-bottom:15px;
+	}
+
+	.social-icon {
+		height: 23px;
+		width: 23px;
+		margin:7px;
+	}
+
+	#contact {
+		text-align:left;
+		padding-left:20px;
+		margin-bottom:0;
+
+	}
+
+	#contact p {
+		margin-top:0;
+		font-family: 'Fira Sans', sans-serif;
+		font-size:13px;
+		letter-spacing:.25px;
+		line-height:15px;
+	}
+
+	#awlogo {
+		display:flex;
+	}
+
+	#skull {
+		width:150px;
+		height:150px;
+	}
+
+	#social-icon {
+		height:10px;
+		width:10px;
+		padding:0;
+		margin:0;
+	}

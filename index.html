@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html ng-app="awApp"> 
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=BenchNine:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    	<script src="spotify.js"></script>
+		<title>Ancient Warfare | Band</title>
+		<link rel="stylesheet" href="CSS/main.css">
+		<link rel="stylesheet" href="CSS/responsive.css">
+	</head>
+	<body ng-controller="mainController">
+		<header>
+			<div class="header">
+				<a href="#home" id="logo">
+					<h1>ANCIENT WARFARE</h1>
+				</a>
+				<nav>
+					<ul class="navigation">
+						
+						<li><a class="videoFade" href="#video">|  VIDEO  |</a></li>
+						<li><a class="bioFade" href="#bio">|  BIO  |</a></li>
+					</ul>
+				</nav>
+				<form>
+					<input style="text" placeholder="email">
+					<a href="" id="joinButton">JOIN</a>
+				</form>
+			</div>
+		</header>
+		
+		<div ng-view></div>
+		
+		<div class="spotify">
+			<div class="view">
+			<p>View the most popular tracks from Ancient Warfare by country.</p>
+			<button class="buttonAPI">VIEW</button>
+			</div>
+			<div class="API">
+				<p>Select country:</p>
+				<select>
+		  			<option>US</option>
+					<option>CA</option>
+					<option>GB</option>
+				</select>
+		  		<button id="toptracks">GO</button>
+		  		<div id="photos"></div>	
+	  		</div>
+  		</div>
+		
+		<footer>
+			<div class="flexfooter">
+				
+				<div class="one">
+					<div id="social">
+						<a href="https://www.facebook.com/AncientWarfare/"><img src="img/Facebook.png" alt="Facebook logo" class="social-icon" id="facebook"></a>
+						<a href="https://twitter.com/awsound"><img src="img/Twitter.png" alt="Twitter logo" class="social-icon" id="twitter"></a>
+						<a href="https://www.instagram.com/ancientwarfare"><img src="img/Instagram.png" alt="Instagram logo" class="social-icon" id="instagram"></a>
+						<a href="https://ancientwarfare.bandcamp.com"><img src="img/Bandcamp.png" alt="Bandcamp logo" class="social-icon" id="bandcamp"></a>
+						<a href="https://www.reverbnation.com/ancientwarfare"><img src="img/Reverb.png" alt="Reverb logo" class="social-icon" id="reverb"></a>
+					</div>
+
+
+					<div id="contact">	
+						<p><strong>BOOKING | </strong><a href="mailto:ancientwarfaresound@gmail.com">Ancient Warfare Sound</a><br><strong>PRESS | </strong><a href="mailto:michelle@noisyghostpr.com">Michelle King</a><br>
+						<strong>RADIO | </strong><a href="mailto:rich@totalrecluse.com">Rich Michalowski</a><br>
+						<strong>LABEL | </strong><a href="http://www.aliasrecords.com">Alias Records</a><br><br>
+						&copy; 2016 Ancient Warfare</p> 
+					</div>
+				</div>
+					<div id="awlogo">
+						<img id="skull" src="img/logo.png">
+					</div>
+					<div class="album">
+							<p>Order 'The Pale Horse'</p>
+						<div class="buttons">
+							<a href="https://ancientwarfare.bandcamp.com/releases" class="listenButton">LISTEN</a>
+							<a href="http://www.aliasrecords.com/product-category/vinyl/ancient-warfare-vinyl/" class="buyButton">BUY</a>
+						</div>
+
+					</div>
+			</div>
+		</footer>
+		<script src="AW.js" type="text/javascript" charset="utf-8"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,248 @@
+
+
+
+/**************************
+LINKS
+***************************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding:0;
+}
+
+a:hover {
+	color:white;
+}
+
+/**************************
+HEADER
+***************************/
+
+header {
+	width:100%;
+	background-color: white;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+  font-weight: normal; 
+  color: black;
+  margin: 30px 10px 0 10px;
+}
+
+#logo {
+	text-align:center;
+	margin:0;
+}
+
+
+form {
+	text-align:center;
+	margin-bottom:25px;
+	font-size:25px;
+	display:block;
+}
+
+input {
+	width:200px;
+	height:30px;
+	font-size:20px;
+}
+
+input:placeholder-shown {
+	font-family: 'BenchNine', sans-serif;
+	letter-spacing:1px;
+	font-size:20px;
+}
+
+#joinButton {
+	background-color: #dfeae5;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	margin:20px 5px;
+	letter-spacing:.5px;
+	padding:10px 22px;
+	color:black;
+}
+
+/**************************
+NAVIGATION	
+***************************/
+
+nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:25px;
+	font-family: 'BenchNine', sans-serif;
+	letter-spacing:1px;
+}
+
+nav li {
+	margin: 25px 0 25px 0;
+	padding: 0 25px;
+	display:inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+/**************************
+BIO
+***************************/
+
+.biotext p {
+	font-family: 'Fira Sans', sans-serif;
+	margin: 15px;
+	padding-bottom:15px;
+}
+
+#biocon {
+	background-color:#dfeae5;
+}
+
+/**************************
+API
+***************************/
+
+.spotify {
+	display:none;
+	margin-top:0;
+	padding-top:0;
+}
+
+
+/**************************
+FOOTER	
+***************************/
+
+footer {
+	font-family: 'BenchNine', sans-serif;
+	color: black;
+	background-color: white;
+	width:100%;
+	font-size: 25px;
+	margin:0;
+	padding:0;
+	letter-spacing:.5px;
+	overflow: auto;
+}
+
+footer a {
+	color:black;
+}
+
+.flexfooter {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin:0;
+	padding:0;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+}
+
+#social {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding-top:15px;
+}
+
+#contact {
+	line-height: 44px;
+	text-align:center;
+	margin-bottom:20px;
+	width:100%;
+}
+
+#contact a:hover {
+	color:white;
+}
+
+
+
+#copyright {
+	background-color: white;
+	text-align:center;
+	padding:0;
+	margin-bottom:20px;
+	width:100%;
+}
+
+#awlogo {
+	margin:0;
+	padding:0;
+	background-color:white;
+ }
+
+ #skull {
+ 	width:200px;
+ 	height:200px;
+ }
+
+/**************************
+BUTTONS
+***************************/
+
+
+.album p {
+	display:flex;
+	justify-content:center;
+	margin-bottom:30px;
+}
+
+
+.listenButton {
+	background-color: #dfeae5;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	margin:50px 5px;
+	letter-spacing:.5px;
+	padding:17px 10px;
+}
+
+.buyButton {
+	background-color: #dfeae5;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	margin:20px 5px;
+	letter-spacing:.5px;
+	padding:17px 22px;
+
+
+/**************************
+BIO PAGE
+***************************/
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
